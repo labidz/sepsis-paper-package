@@ -1,0 +1,31 @@
+{
+ "archives": [
+  "/mnt/user-data/uploads/ec099610-physionet2019_setA_part1.zip",
+  "/mnt/user-data/uploads/2e440657-physionet2019_setA_part2.zip",
+  "/mnt/user-data/uploads/14e7b11b-physionet2019_setB_part1.zip",
+  "/mnt/user-data/uploads/055adb74-physionet2019_setB_part2.zip"
+ ],
+ "md5_verified_files": 40336,
+ "A": {
+  "n_patients": 20336,
+  "n_rows": 790215,
+  "n_septic_patients": 1790,
+  "septic_patient_pct": 8.802,
+  "positive_rows": 17136,
+  "positive_row_pct": 2.169,
+  "pid_min": 1,
+  "pid_max": 20643,
+  "median_hours": 39.0
+ },
+ "B": {
+  "n_patients": 20000,
+  "n_rows": 761995,
+  "n_septic_patients": 1142,
+  "septic_patient_pct": 5.71,
+  "positive_rows": 10780,
+  "positive_row_pct": 1.415,
+  "pid_min": 100001,
+  "pid_max": 120000,
+  "median_hours": 38.0
+ }
+}

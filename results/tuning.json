@@ -1,0 +1,194 @@
+{
+ "A": {
+  "configs": [
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_data_in_leaf": 50,
+    "feature_fraction": 0.5,
+    "bagging_fraction": 1.0,
+    "lambda_l2": 10.0,
+    "val_logloss": 0.087623094706728,
+    "best_iter": 161,
+    "external_auroc": 0.7710682747134553
+   },
+   {
+    "learning_rate": 0.1,
+    "num_leaves": 63,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.6,
+    "lambda_l2": 100.0,
+    "val_logloss": 0.08739095277581678,
+    "best_iter": 46,
+    "external_auroc": 0.803086026240459
+   },
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 63,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.5,
+    "bagging_fraction": 0.8,
+    "lambda_l2": 100.0,
+    "val_logloss": 0.08706745251506778,
+    "best_iter": 161,
+    "external_auroc": 0.7970180010300445
+   },
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 63,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.3,
+    "bagging_fraction": 1.0,
+    "lambda_l2": 1.0,
+    "val_logloss": 0.08792701633014956,
+    "best_iter": 82,
+    "external_auroc": 0.7933772712448258
+   },
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_data_in_leaf": 50,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "lambda_l2": 1.0,
+    "val_logloss": 0.0877666535116279,
+    "best_iter": 216,
+    "external_auroc": 0.7728562144292233
+   },
+   {
+    "learning_rate": 0.1,
+    "num_leaves": 31,
+    "min_data_in_leaf": 50,
+    "feature_fraction": 0.5,
+    "bagging_fraction": 0.8,
+    "lambda_l2": 100.0,
+    "val_logloss": 0.08762608116622365,
+    "best_iter": 71,
+    "external_auroc": 0.7960600860619402
+   },
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.5,
+    "bagging_fraction": 0.6,
+    "lambda_l2": 10.0,
+    "val_logloss": 0.08704880819975322,
+    "best_iter": 266,
+    "external_auroc": 0.7799693478012744
+   },
+   {
+    "learning_rate": 0.1,
+    "num_leaves": 31,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.6,
+    "lambda_l2": 1.0,
+    "val_logloss": 0.08845160196058684,
+    "best_iter": 60,
+    "external_auroc": 0.7790736952333879
+   }
+  ],
+  "selected": 6,
+  "fixed_external_auroc": 0.7847765882720827,
+  "tuned_local_auroc": 0.8283484810213149,
+  "fixed_local_auroc": 0.8260727403120549
+ },
+ "B": {
+  "configs": [
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_data_in_leaf": 50,
+    "feature_fraction": 0.5,
+    "bagging_fraction": 1.0,
+    "lambda_l2": 10.0,
+    "val_logloss": 0.05763425331126511,
+    "best_iter": 135,
+    "external_auroc": 0.7720410492456233
+   },
+   {
+    "learning_rate": 0.1,
+    "num_leaves": 63,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.6,
+    "lambda_l2": 100.0,
+    "val_logloss": 0.05733901569223801,
+    "best_iter": 89,
+    "external_auroc": 0.7724919758153244
+   },
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 63,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.5,
+    "bagging_fraction": 0.8,
+    "lambda_l2": 100.0,
+    "val_logloss": 0.05676225345452793,
+    "best_iter": 164,
+    "external_auroc": 0.7766260625465483
+   },
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 63,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.3,
+    "bagging_fraction": 1.0,
+    "lambda_l2": 1.0,
+    "val_logloss": 0.05790384160789316,
+    "best_iter": 94,
+    "external_auroc": 0.7747767120833104
+   },
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_data_in_leaf": 50,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "lambda_l2": 1.0,
+    "val_logloss": 0.0581602118034711,
+    "best_iter": 165,
+    "external_auroc": 0.7686896645932075
+   },
+   {
+    "learning_rate": 0.1,
+    "num_leaves": 31,
+    "min_data_in_leaf": 50,
+    "feature_fraction": 0.5,
+    "bagging_fraction": 0.8,
+    "lambda_l2": 100.0,
+    "val_logloss": 0.056890191972021054,
+    "best_iter": 92,
+    "external_auroc": 0.7684482704503963
+   },
+   {
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.5,
+    "bagging_fraction": 0.6,
+    "lambda_l2": 10.0,
+    "val_logloss": 0.05721627695212273,
+    "best_iter": 222,
+    "external_auroc": 0.7746429106534045
+   },
+   {
+    "learning_rate": 0.1,
+    "num_leaves": 31,
+    "min_data_in_leaf": 1000,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.6,
+    "lambda_l2": 1.0,
+    "val_logloss": 0.05856782933382179,
+    "best_iter": 35,
+    "external_auroc": 0.7659870924219935
+   }
+  ],
+  "selected": 2,
+  "fixed_external_auroc": 0.7753394082729751,
+  "tuned_local_auroc": 0.867967094358469,
+  "fixed_local_auroc": 0.865306549956788
+ }
+}

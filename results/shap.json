@@ -1,0 +1,784 @@
+{
+ "model_A_on_A": {
+  "n_rows": 77687,
+  "family_share": {
+   "process": 0.34869235807574894,
+   "value": 0.5241630205614903,
+   "covariate": 0.12714462136276072
+  },
+  "top20": [
+   {
+    "feature": "FiO2_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.2616167983366571,
+    "share": 0.09186868735564822
+   },
+   {
+    "feature": "Temp_last",
+    "family": "value",
+    "mean_abs_shap": 0.15816046762356933,
+    "share": 0.05553922624431456
+   },
+   {
+    "feature": "ICULOS",
+    "family": "covariate",
+    "mean_abs_shap": 0.12682817110032324,
+    "share": 0.044536656945517214
+   },
+   {
+    "feature": "UnitType",
+    "family": "covariate",
+    "mean_abs_shap": 0.11658798089711617,
+    "share": 0.04094073788289567
+   },
+   {
+    "feature": "Creatinine_last",
+    "family": "value",
+    "mean_abs_shap": 0.11644850667704448,
+    "share": 0.040891760471661355
+   },
+   {
+    "feature": "Lactate_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.086358366921375,
+    "share": 0.030325383773846578
+   },
+   {
+    "feature": "HospAdmTime",
+    "family": "covariate",
+    "mean_abs_shap": 0.0852121126682358,
+    "share": 0.029922868055126495
+   },
+   {
+    "feature": "WBC_last",
+    "family": "value",
+    "mean_abs_shap": 0.07447261799651808,
+    "share": 0.026151614509381065
+   },
+   {
+    "feature": "Resp_min24h",
+    "family": "value",
+    "mean_abs_shap": 0.07386745476993188,
+    "share": 0.02593910693488334
+   },
+   {
+    "feature": "O2Sat_count",
+    "family": "process",
+    "mean_abs_shap": 0.0696966351369258,
+    "share": 0.024474492554929183
+   },
+   {
+    "feature": "Temp_count24h",
+    "family": "process",
+    "mean_abs_shap": 0.063876985482214,
+    "share": 0.02243087923175057
+   },
+   {
+    "feature": "PTT_last",
+    "family": "value",
+    "mean_abs_shap": 0.0589589083778203,
+    "share": 0.020703859824865608
+   },
+   {
+    "feature": "ShockIndex",
+    "family": "value",
+    "mean_abs_shap": 0.054599722333786724,
+    "share": 0.019173099176655686
+   },
+   {
+    "feature": "BUN_last",
+    "family": "value",
+    "mean_abs_shap": 0.05051807990127326,
+    "share": 0.01773980003487964
+   },
+   {
+    "feature": "SIRS",
+    "family": "value",
+    "mean_abs_shap": 0.044240521186568654,
+    "share": 0.015535388534606669
+   },
+   {
+    "feature": "SBP_min24h",
+    "family": "value",
+    "mean_abs_shap": 0.04390911074886134,
+    "share": 0.015419011290936892
+   },
+   {
+    "feature": "Resp_mean24h",
+    "family": "value",
+    "mean_abs_shap": 0.041420620265254136,
+    "share": 0.014545159322410668
+   },
+   {
+    "feature": "Hct_last",
+    "family": "value",
+    "mean_abs_shap": 0.03695855732160954,
+    "share": 0.012978272684636723
+   },
+   {
+    "feature": "Calcium_last",
+    "family": "value",
+    "mean_abs_shap": 0.036612336249220605,
+    "share": 0.012856694576283351
+   },
+   {
+    "feature": "HCO3_last",
+    "family": "value",
+    "mean_abs_shap": 0.03620635543726967,
+    "share": 0.012714131390269898
+   }
+  ]
+ },
+ "model_A_on_B": {
+  "n_rows": 74033,
+  "family_share": {
+   "process": 0.33210545813160863,
+   "value": 0.5262047927079424,
+   "covariate": 0.14168974916044902
+  },
+  "top20": [
+   {
+    "feature": "FiO2_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.18667686058884678,
+    "share": 0.06664881495289715
+   },
+   {
+    "feature": "Creatinine_last",
+    "family": "value",
+    "mean_abs_shap": 0.13898060006720145,
+    "share": 0.049619927540579915
+   },
+   {
+    "feature": "Temp_last",
+    "family": "value",
+    "mean_abs_shap": 0.13700414474515124,
+    "share": 0.04891427819225429
+   },
+   {
+    "feature": "ICULOS",
+    "family": "covariate",
+    "mean_abs_shap": 0.13200388602239355,
+    "share": 0.047129047193198166
+   },
+   {
+    "feature": "HospAdmTime",
+    "family": "covariate",
+    "mean_abs_shap": 0.12383273953127773,
+    "share": 0.04421172134616209
+   },
+   {
+    "feature": "UnitType",
+    "family": "covariate",
+    "mean_abs_shap": 0.1117746496841742,
+    "share": 0.03990664895331177
+   },
+   {
+    "feature": "WBC_last",
+    "family": "value",
+    "mean_abs_shap": 0.08334222984322473,
+    "share": 0.02975548676499854
+   },
+   {
+    "feature": "Lactate_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.07814154839570406,
+    "share": 0.027898699296367412
+   },
+   {
+    "feature": "Resp_min24h",
+    "family": "value",
+    "mean_abs_shap": 0.07482715642944808,
+    "share": 0.026715369471002
+   },
+   {
+    "feature": "TroponinI_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.07322242226942051,
+    "share": 0.026142434883700178
+   },
+   {
+    "feature": "O2Sat_count",
+    "family": "process",
+    "mean_abs_shap": 0.07131831198793381,
+    "share": 0.025462614720663336
+   },
+   {
+    "feature": "Temp_count24h",
+    "family": "process",
+    "mean_abs_shap": 0.058803348891182376,
+    "share": 0.02099442591061669
+   },
+   {
+    "feature": "ShockIndex",
+    "family": "value",
+    "mean_abs_shap": 0.058730387970041965,
+    "share": 0.020968376838886315
+   },
+   {
+    "feature": "HCO3_last",
+    "family": "value",
+    "mean_abs_shap": 0.05706153563080665,
+    "share": 0.020372550283894154
+   },
+   {
+    "feature": "BUN_last",
+    "family": "value",
+    "mean_abs_shap": 0.05525993724280491,
+    "share": 0.01972932970903229
+   },
+   {
+    "feature": "Hct_last",
+    "family": "value",
+    "mean_abs_shap": 0.04818752332054555,
+    "share": 0.017204281852066565
+   },
+   {
+    "feature": "SIRS",
+    "family": "value",
+    "mean_abs_shap": 0.04710000795995777,
+    "share": 0.016816008716351645
+   },
+   {
+    "feature": "SBP_min24h",
+    "family": "value",
+    "mean_abs_shap": 0.041473015758032625,
+    "share": 0.014807016488688743
+   },
+   {
+    "feature": "MAP_min6h",
+    "family": "value",
+    "mean_abs_shap": 0.04107036114602924,
+    "share": 0.014663257628374228
+   },
+   {
+    "feature": "O2Sat_min6h",
+    "family": "value",
+    "mean_abs_shap": 0.036940348882352494,
+    "share": 0.013188728743290584
+   }
+  ]
+ },
+ "model_B_on_A": {
+  "n_rows": 77687,
+  "family_share": {
+   "process": 0.36911831235918746,
+   "value": 0.4742376432622803,
+   "covariate": 0.15664404437853227
+  },
+  "top20": [
+   {
+    "feature": "HospAdmTime",
+    "family": "covariate",
+    "mean_abs_shap": 0.30194020878136973,
+    "share": 0.08557418540685159
+   },
+   {
+    "feature": "Temp_last",
+    "family": "value",
+    "mean_abs_shap": 0.18808705032573775,
+    "share": 0.05330656748951557
+   },
+   {
+    "feature": "FiO2_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.17265102558045647,
+    "share": 0.04893177670286049
+   },
+   {
+    "feature": "ICULOS",
+    "family": "covariate",
+    "mean_abs_shap": 0.16108356257766748,
+    "share": 0.04565339179452814
+   },
+   {
+    "feature": "pH_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.11540319891345875,
+    "share": 0.0327069216127979
+   },
+   {
+    "feature": "PaCO2_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.09701052290982759,
+    "share": 0.02749417345707762
+   },
+   {
+    "feature": "BUN_last",
+    "family": "value",
+    "mean_abs_shap": 0.08409495013714331,
+    "share": 0.023833714906207185
+   },
+   {
+    "feature": "Creatinine_last",
+    "family": "value",
+    "mean_abs_shap": 0.08196245122403951,
+    "share": 0.023229334131263796
+   },
+   {
+    "feature": "WBC_last",
+    "family": "value",
+    "mean_abs_shap": 0.07990000204219751,
+    "share": 0.022644806454769562
+   },
+   {
+    "feature": "Resp_count24h",
+    "family": "process",
+    "mean_abs_shap": 0.072037991956039,
+    "share": 0.020416600044305632
+   },
+   {
+    "feature": "nlab_6h",
+    "family": "process",
+    "mean_abs_shap": 0.07097640179116761,
+    "share": 0.02011573016691685
+   },
+   {
+    "feature": "SIRS",
+    "family": "value",
+    "mean_abs_shap": 0.07050897560378394,
+    "share": 0.019983254881877383
+   },
+   {
+    "feature": "UnitType",
+    "family": "covariate",
+    "mean_abs_shap": 0.0623723876771257,
+    "share": 0.01767722917359164
+   },
+   {
+    "feature": "MAP_min6h",
+    "family": "value",
+    "mean_abs_shap": 0.0608230310298176,
+    "share": 0.01723811927983753
+   },
+   {
+    "feature": "HR_max6h",
+    "family": "value",
+    "mean_abs_shap": 0.059696817531819685,
+    "share": 0.01691893422305314
+   },
+   {
+    "feature": "HR_max24h",
+    "family": "value",
+    "mean_abs_shap": 0.05114956591986677,
+    "share": 0.014496520536872367
+   },
+   {
+    "feature": "BaseExcess_last",
+    "family": "value",
+    "mean_abs_shap": 0.04262452123046091,
+    "share": 0.012080400611019268
+   },
+   {
+    "feature": "EtCO2_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.039469885681870376,
+    "share": 0.011186331654732621
+   },
+   {
+    "feature": "Alkalinephos_last",
+    "family": "value",
+    "mean_abs_shap": 0.038251243315551145,
+    "share": 0.010840950931108768
+   },
+   {
+    "feature": "Platelets_last",
+    "family": "value",
+    "mean_abs_shap": 0.037132277954020264,
+    "share": 0.01052382010014739
+   }
+  ]
+ },
+ "model_B_on_B": {
+  "n_rows": 74033,
+  "family_share": {
+   "process": 0.3251433504781382,
+   "value": 0.5174974562166128,
+   "covariate": 0.15735919330524886
+  },
+  "top20": [
+   {
+    "feature": "HospAdmTime",
+    "family": "covariate",
+    "mean_abs_shap": 0.21922623024633348,
+    "share": 0.07593695659786062
+   },
+   {
+    "feature": "Temp_last",
+    "family": "value",
+    "mean_abs_shap": 0.17635499553908038,
+    "share": 0.06108694943583753
+   },
+   {
+    "feature": "ICULOS",
+    "family": "covariate",
+    "mean_abs_shap": 0.15681747131714083,
+    "share": 0.05431941925843127
+   },
+   {
+    "feature": "Creatinine_last",
+    "family": "value",
+    "mean_abs_shap": 0.08041156036434133,
+    "share": 0.027853460612318137
+   },
+   {
+    "feature": "EtCO2_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.08038729516414705,
+    "share": 0.02784505548008592
+   },
+   {
+    "feature": "BUN_last",
+    "family": "value",
+    "mean_abs_shap": 0.07947921418307606,
+    "share": 0.027530508694468856
+   },
+   {
+    "feature": "WBC_last",
+    "family": "value",
+    "mean_abs_shap": 0.07394933477103979,
+    "share": 0.025615034380873463
+   },
+   {
+    "feature": "SIRS",
+    "family": "value",
+    "mean_abs_shap": 0.06762898665580402,
+    "share": 0.023425752560122654
+   },
+   {
+    "feature": "FiO2_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.06550254867797829,
+    "share": 0.022689183636555647
+   },
+   {
+    "feature": "HR_max6h",
+    "family": "value",
+    "mean_abs_shap": 0.05919167564018059,
+    "share": 0.02050318385255458
+   },
+   {
+    "feature": "nlab_6h",
+    "family": "process",
+    "mean_abs_shap": 0.05520853451067834,
+    "share": 0.01912347844625216
+   },
+   {
+    "feature": "Resp_count24h",
+    "family": "process",
+    "mean_abs_shap": 0.05469892673532061,
+    "share": 0.018946957308814412
+   },
+   {
+    "feature": "pH_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.04945970219990597,
+    "share": 0.017132161854341726
+   },
+   {
+    "feature": "Bilirubin_total_last",
+    "family": "value",
+    "mean_abs_shap": 0.04923230065082545,
+    "share": 0.01705339307953129
+   },
+   {
+    "feature": "UnitType",
+    "family": "covariate",
+    "mean_abs_shap": 0.046197078666855254,
+    "share": 0.016002033852112966
+   },
+   {
+    "feature": "MAP_min6h",
+    "family": "value",
+    "mean_abs_shap": 0.04452263319497493,
+    "share": 0.01542202892760742
+   },
+   {
+    "feature": "PaCO2_hours_since",
+    "family": "process",
+    "mean_abs_shap": 0.04435912461525839,
+    "share": 0.015365391800255639
+   },
+   {
+    "feature": "HR_max24h",
+    "family": "value",
+    "mean_abs_shap": 0.04308735662386717,
+    "share": 0.014924868826995058
+   },
+   {
+    "feature": "Platelets_last",
+    "family": "value",
+    "mean_abs_shap": 0.039550408932768726,
+    "share": 0.013699718702367861
+   },
+   {
+    "feature": "Resp_mean24h",
+    "family": "value",
+    "mean_abs_shap": 0.03346626698831544,
+    "share": 0.011592255456514326
+   }
+  ]
+ },
+ "agreement_on_A": {
+  "spearman": 0.7013923607135892,
+  "top20_overlap": 9
+ },
+ "agreement_on_B": {
+  "spearman": 0.6709706426019115,
+  "top20_overlap": 10
+ },
+ "model_A_by_variable": [
+  {
+   "variable": "FiO2_hours",
+   "family": "process",
+   "share": 0.09186868735564822
+  },
+  {
+   "variable": "Resp",
+   "family": "value",
+   "share": 0.059385968889122835
+  },
+  {
+   "variable": "Temp",
+   "family": "value",
+   "share": 0.05553922624431456
+  },
+  {
+   "variable": "ICULOS",
+   "family": "covariate",
+   "share": 0.044536656945517214
+  },
+  {
+   "variable": "UnitType",
+   "family": "covariate",
+   "share": 0.04094073788289567
+  },
+  {
+   "variable": "Creatinine",
+   "family": "value",
+   "share": 0.040891760471661355
+  },
+  {
+   "variable": "SBP",
+   "family": "value",
+   "share": 0.03942410440057661
+  },
+  {
+   "variable": "MAP",
+   "family": "value",
+   "share": 0.03380511441502049
+  },
+  {
+   "variable": "Lactate_hours",
+   "family": "process",
+   "share": 0.030325383773846578
+  },
+  {
+   "variable": "HospAdmTime",
+   "family": "covariate",
+   "share": 0.029922868055126495
+  },
+  {
+   "variable": "O2Sat",
+   "family": "process",
+   "share": 0.027718735314215415
+  },
+  {
+   "variable": "WBC",
+   "family": "value",
+   "share": 0.026151614509381065
+  },
+  {
+   "variable": "Temp",
+   "family": "process",
+   "share": 0.024761300285698635
+  },
+  {
+   "variable": "PTT",
+   "family": "value",
+   "share": 0.020703859824865608
+  },
+  {
+   "variable": "HR",
+   "family": "value",
+   "share": 0.020622319209030772
+  },
+  {
+   "variable": "ShockIndex",
+   "family": "value",
+   "share": 0.019173099176655686
+  },
+  {
+   "variable": "O2Sat",
+   "family": "value",
+   "share": 0.01857590846537059
+  },
+  {
+   "variable": "BUN",
+   "family": "value",
+   "share": 0.01773980003487964
+  },
+  {
+   "variable": "SIRS",
+   "family": "value",
+   "share": 0.015535388534606669
+  },
+  {
+   "variable": "MAP",
+   "family": "process",
+   "share": 0.014414942159565491
+  },
+  {
+   "variable": "Lactate",
+   "family": "process",
+   "share": 0.014027365497009649
+  },
+  {
+   "variable": "HR",
+   "family": "process",
+   "share": 0.01341706977586291
+  },
+  {
+   "variable": "Hct",
+   "family": "value",
+   "share": 0.012978272684636723
+  },
+  {
+   "variable": "Calcium",
+   "family": "value",
+   "share": 0.012856694576283351
+  },
+  {
+   "variable": "HCO3",
+   "family": "value",
+   "share": 0.012714131390269898
+  }
+ ],
+ "model_B_by_variable": [
+  {
+   "variable": "HospAdmTime",
+   "family": "covariate",
+   "share": 0.07593695659786062
+  },
+  {
+   "variable": "HR",
+   "family": "value",
+   "share": 0.06223678519875219
+  },
+  {
+   "variable": "Temp",
+   "family": "value",
+   "share": 0.06108694943583753
+  },
+  {
+   "variable": "ICULOS",
+   "family": "covariate",
+   "share": 0.05431941925843127
+  },
+  {
+   "variable": "MAP",
+   "family": "value",
+   "share": 0.04085022184678278
+  },
+  {
+   "variable": "O2Sat",
+   "family": "value",
+   "share": 0.03480830190505754
+  },
+  {
+   "variable": "Resp",
+   "family": "value",
+   "share": 0.03311935308008773
+  },
+  {
+   "variable": "Creatinine",
+   "family": "value",
+   "share": 0.027853460612318137
+  },
+  {
+   "variable": "EtCO2_hours",
+   "family": "process",
+   "share": 0.02784505548008592
+  },
+  {
+   "variable": "BUN",
+   "family": "value",
+   "share": 0.027530508694468856
+  },
+  {
+   "variable": "DBP",
+   "family": "value",
+   "share": 0.02662917496722432
+  },
+  {
+   "variable": "SBP",
+   "family": "value",
+   "share": 0.0265883355178002
+  },
+  {
+   "variable": "WBC",
+   "family": "value",
+   "share": 0.025615034380873463
+  },
+  {
+   "variable": "SIRS",
+   "family": "value",
+   "share": 0.023425752560122654
+  },
+  {
+   "variable": "FiO2_hours",
+   "family": "process",
+   "share": 0.022689183636555647
+  },
+  {
+   "variable": "Resp",
+   "family": "process",
+   "share": 0.0214374067635605
+  },
+  {
+   "variable": "nlab",
+   "family": "process",
+   "share": 0.019736133067982983
+  },
+  {
+   "variable": "pH_hours",
+   "family": "process",
+   "share": 0.017132161854341726
+  },
+  {
+   "variable": "Bilirubin_total",
+   "family": "value",
+   "share": 0.01705339307953129
+  },
+  {
+   "variable": "UnitType",
+   "family": "covariate",
+   "share": 0.016002033852112966
+  },
+  {
+   "variable": "PaCO2_hours",
+   "family": "process",
+   "share": 0.015365391800255639
+  },
+  {
+   "variable": "Temp",
+   "family": "process",
+   "share": 0.014906067981380408
+  },
+  {
+   "variable": "Platelets",
+   "family": "value",
+   "share": 0.013699718702367861
+  },
+  {
+   "variable": "O2Sat",
+   "family": "process",
+   "share": 0.013135305363357247
+  },
+  {
+   "variable": "DBP",
+   "family": "process",
+   "share": 0.012489388596399946
+  }
+ ]
+}

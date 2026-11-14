@@ -1,0 +1,314 @@
+{
+ "B": {
+  "n_eval_patients": 10000,
+  "n_eval_septic": 558,
+  "auroc_external": 0.7815724343094952,
+  "auroc_local_cv": 0.8661059422012933,
+  "sizes": {
+   "500": [
+    {
+     "n_septic": 30,
+     "auroc_new": 0.795188970931135,
+     "auroc_continued": 0.7944058134799687,
+     "trees_new": 105,
+     "trees_added": 145
+    },
+    {
+     "n_septic": 35,
+     "auroc_new": 0.7835853021336482,
+     "auroc_continued": 0.7961920996406979,
+     "trees_new": 35,
+     "trees_added": 3
+    },
+    {
+     "n_septic": 25,
+     "auroc_new": 0.7578825665316191,
+     "auroc_continued": 0.7949957814895803,
+     "trees_new": 39,
+     "trees_added": 22
+    },
+    {
+     "n_septic": 27,
+     "auroc_new": 0.7612756527791177,
+     "auroc_continued": 0.784878515812409,
+     "trees_new": 19,
+     "trees_added": 1
+    },
+    {
+     "n_septic": 26,
+     "auroc_new": 0.7771380299259966,
+     "auroc_continued": 0.7849009893149997,
+     "trees_new": 17,
+     "trees_added": 1
+    }
+   ],
+   "1000": [
+    {
+     "n_septic": 42,
+     "auroc_new": 0.7936239765392794,
+     "auroc_continued": 0.8118005119468905,
+     "trees_new": 42,
+     "trees_added": 48
+    },
+    {
+     "n_septic": 47,
+     "auroc_new": 0.7886118666805408,
+     "auroc_continued": 0.8098219654895193,
+     "trees_new": 25,
+     "trees_added": 19
+    },
+    {
+     "n_septic": 61,
+     "auroc_new": 0.807239106524687,
+     "auroc_continued": 0.8180405250576217,
+     "trees_new": 45,
+     "trees_added": 94
+    },
+    {
+     "n_septic": 53,
+     "auroc_new": 0.7994696687057111,
+     "auroc_continued": 0.8282098198101672,
+     "trees_new": 36,
+     "trees_added": 45
+    },
+    {
+     "n_septic": 61,
+     "auroc_new": 0.8095229773970272,
+     "auroc_continued": 0.8196822440719279,
+     "trees_new": 33,
+     "trees_added": 54
+    }
+   ],
+   "2500": [
+    {
+     "n_septic": 142,
+     "auroc_new": 0.8237948527430753,
+     "auroc_continued": 0.8355615748204185,
+     "trees_new": 27,
+     "trees_added": 49
+    },
+    {
+     "n_septic": 168,
+     "auroc_new": 0.8278058862183366,
+     "auroc_continued": 0.8296093995566058,
+     "trees_new": 53,
+     "trees_added": 28
+    },
+    {
+     "n_septic": 151,
+     "auroc_new": 0.8297098832351998,
+     "auroc_continued": 0.8109708207501578,
+     "trees_new": 46,
+     "trees_added": 6
+    },
+    {
+     "n_septic": 153,
+     "auroc_new": 0.8358235673414282,
+     "auroc_continued": 0.8088114768275474,
+     "trees_new": 35,
+     "trees_added": 7
+    },
+    {
+     "n_septic": 139,
+     "auroc_new": 0.8388549507479433,
+     "auroc_continued": 0.8309789951279734,
+     "trees_new": 71,
+     "trees_added": 37
+    }
+   ],
+   "5000": [
+    {
+     "n_septic": 287,
+     "auroc_new": 0.8528043383358659,
+     "auroc_continued": 0.8485042607464901,
+     "trees_new": 75,
+     "trees_added": 69
+    },
+    {
+     "n_septic": 302,
+     "auroc_new": 0.8491742856853475,
+     "auroc_continued": 0.8467879588546181,
+     "trees_new": 88,
+     "trees_added": 64
+    },
+    {
+     "n_septic": 319,
+     "auroc_new": 0.8469328089494783,
+     "auroc_continued": 0.8423896269771545,
+     "trees_new": 74,
+     "trees_added": 38
+    },
+    {
+     "n_septic": 302,
+     "auroc_new": 0.8466093383444986,
+     "auroc_continued": 0.8349564327192854,
+     "trees_new": 44,
+     "trees_added": 14
+    },
+    {
+     "n_septic": 310,
+     "auroc_new": 0.8454801448338525,
+     "auroc_continued": 0.8418664003484035,
+     "trees_new": 59,
+     "trees_added": 33
+    }
+   ]
+  }
+ },
+ "A": {
+  "n_eval_patients": 10168,
+  "n_eval_septic": 880,
+  "auroc_external": 0.7765488113076522,
+  "auroc_local_cv": 0.8282397553102947,
+  "sizes": {
+   "500": [
+    {
+     "n_septic": 38,
+     "auroc_new": 0.7454123303817458,
+     "auroc_continued": 0.7850132844151048,
+     "trees_new": 46,
+     "trees_added": 11
+    },
+    {
+     "n_septic": 44,
+     "auroc_new": 0.7489494662032411,
+     "auroc_continued": 0.7796268246378546,
+     "trees_new": 32,
+     "trees_added": 3
+    },
+    {
+     "n_septic": 55,
+     "auroc_new": 0.7335385848060373,
+     "auroc_continued": 0.7848695380271794,
+     "trees_new": 33,
+     "trees_added": 22
+    },
+    {
+     "n_septic": 48,
+     "auroc_new": 0.7341504483268901,
+     "auroc_continued": 0.779251048224894,
+     "trees_new": 33,
+     "trees_added": 9
+    },
+    {
+     "n_septic": 44,
+     "auroc_new": 0.7276154127897618,
+     "auroc_continued": 0.7798632424243126,
+     "trees_new": 22,
+     "trees_added": 2
+    }
+   ],
+   "1000": [
+    {
+     "n_septic": 83,
+     "auroc_new": 0.7622200522041898,
+     "auroc_continued": 0.7778786743204943,
+     "trees_new": 28,
+     "trees_added": 1
+    },
+    {
+     "n_septic": 84,
+     "auroc_new": 0.7578282950948068,
+     "auroc_continued": 0.7784981054410938,
+     "trees_new": 8,
+     "trees_added": 2
+    },
+    {
+     "n_septic": 96,
+     "auroc_new": 0.7723428350790371,
+     "auroc_continued": 0.8012513443183902,
+     "trees_new": 35,
+     "trees_added": 37
+    },
+    {
+     "n_septic": 89,
+     "auroc_new": 0.766502789406803,
+     "auroc_continued": 0.7916049633901744,
+     "trees_new": 38,
+     "trees_added": 22
+    },
+    {
+     "n_septic": 91,
+     "auroc_new": 0.7859217564535038,
+     "auroc_continued": 0.7912096994076752,
+     "trees_new": 33,
+     "trees_added": 15
+    }
+   ],
+   "2500": [
+    {
+     "n_septic": 207,
+     "auroc_new": 0.7882378318966444,
+     "auroc_continued": 0.8006325797866906,
+     "trees_new": 37,
+     "trees_added": 25
+    },
+    {
+     "n_septic": 251,
+     "auroc_new": 0.7996474749526297,
+     "auroc_continued": 0.8001674335290844,
+     "trees_new": 46,
+     "trees_added": 17
+    },
+    {
+     "n_septic": 216,
+     "auroc_new": 0.8038889839703035,
+     "auroc_continued": 0.8017637572993024,
+     "trees_new": 54,
+     "trees_added": 38
+    },
+    {
+     "n_septic": 230,
+     "auroc_new": 0.8048376592285769,
+     "auroc_continued": 0.8041124943675393,
+     "trees_new": 70,
+     "trees_added": 54
+    },
+    {
+     "n_septic": 201,
+     "auroc_new": 0.7999654457055894,
+     "auroc_continued": 0.8001182452078598,
+     "trees_new": 75,
+     "trees_added": 52
+    }
+   ],
+   "5000": [
+    {
+     "n_septic": 456,
+     "auroc_new": 0.8142864859496355,
+     "auroc_continued": 0.8107018941379027,
+     "trees_new": 55,
+     "trees_added": 40
+    },
+    {
+     "n_septic": 449,
+     "auroc_new": 0.8199587540270463,
+     "auroc_continued": 0.8024545109701944,
+     "trees_new": 65,
+     "trees_added": 28
+    },
+    {
+     "n_septic": 451,
+     "auroc_new": 0.8221283753341377,
+     "auroc_continued": 0.8075157949255437,
+     "trees_new": 48,
+     "trees_added": 31
+    },
+    {
+     "n_septic": 453,
+     "auroc_new": 0.8140255591726843,
+     "auroc_continued": 0.8019110228211481,
+     "trees_new": 69,
+     "trees_added": 27
+    },
+    {
+     "n_septic": 466,
+     "auroc_new": 0.8096478298204325,
+     "auroc_continued": 0.8046477458659301,
+     "trees_new": 35,
+     "trees_added": 26
+    }
+   ]
+  }
+ }
+}

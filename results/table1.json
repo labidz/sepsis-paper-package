@@ -1,0 +1,93 @@
+{
+ "A": {
+  "patients": 20336,
+  "patient_hours": 790215,
+  "stay_hours": {
+   "median": 39.0,
+   "q1": 25.0,
+   "q3": 47.0
+  },
+  "age_mean": 62.6,
+  "age_sd": 16.2,
+  "age_missing": 0,
+  "male_pct": 58.2,
+  "unit_medical_pct": 26.3,
+  "unit_surgical_pct": 26.9,
+  "unit_not_recorded_pct": 46.8,
+  "hosp_to_icu_hours": {
+   "median": 2.8,
+   "q1": 0.0,
+   "q3": 34.1
+  },
+  "hosp_adm_time_missing": 1,
+  "septic_patients": 1790,
+  "septic_pct": 8.8,
+  "positive_hours": 17136,
+  "positive_hours_pct": 2.17,
+  "septic_positive_at_first_hour": 203,
+  "onset_hour_after_icu_admission": {
+   "median": 43.0,
+   "q1": 19.0,
+   "q3": 87.0
+  },
+  "rows_from_first_positive": {
+   "median": 10.0,
+   "q1": 9.0,
+   "q3": 10.0
+  },
+  "rows_from_first_positive_max": 10,
+  "iculos_first_gt1_pct": 36.87,
+  "iculos_nonunit_steps": 0,
+  "vitals_observed_per_hour": 5.31,
+  "labs_observed_per_hour": 1.7,
+  "hours_with_any_lab_pct": 30.7,
+  "lab_results_per_patient_day": 40.8
+ },
+ "B": {
+  "patients": 20000,
+  "patient_hours": 761995,
+  "stay_hours": {
+   "median": 38.0,
+   "q1": 23.0,
+   "q3": 47.0
+  },
+  "age_mean": 60.6,
+  "age_sd": 16.7,
+  "age_missing": 0,
+  "male_pct": 53.7,
+  "unit_medical_pct": 34.6,
+  "unit_surgical_pct": 34.9,
+  "unit_not_recorded_pct": 30.5,
+  "hosp_to_icu_hours": {
+   "median": 8.6,
+   "q1": 3.4,
+   "q3": 52.4
+  },
+  "hosp_adm_time_missing": 0,
+  "septic_patients": 1142,
+  "septic_pct": 5.71,
+  "positive_hours": 10780,
+  "positive_hours_pct": 1.41,
+  "septic_positive_at_first_hour": 223,
+  "onset_hour_after_icu_admission": {
+   "median": 48.0,
+   "q1": 22.0,
+   "q3": 94.5
+  },
+  "rows_from_first_positive": {
+   "median": 10.0,
+   "q1": 9.0,
+   "q3": 10.0
+  },
+  "rows_from_first_positive_max": 10,
+  "iculos_first_gt1_pct": 6.48,
+  "iculos_nonunit_steps": 0,
+  "vitals_observed_per_hour": 5.51,
+  "labs_observed_per_hour": 0.98,
+  "hours_with_any_lab_pct": 25.0,
+  "lab_results_per_patient_day": 23.6
+ },
+ "variables_under_1pct_patients_either_site": [
+  "EtCO2"
+ ]
+}
